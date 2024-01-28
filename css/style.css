@@ -88,4 +88,179 @@ h6 {
 
 body {
   font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  margin-top: 35px;
+}
+.header__container {
+  width: 1380px;
+  margin: 0 auto;
+}
+.header__wrapper {
+  background-color: #fafafa;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+.header__logo {
+  margin-top: -7px;
+}
+.header__other-link {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #1f1f1f;
+  margin-right: 55px;
+}
+.header__other-link:hover:after {
+  width: 100%;
+}
+.header__other-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #1f1f1f;
+  transform: translateX(-50%);
+  transition: 0.2s;
+}
+.header__contact-link {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #1f1f1f;
+  padding: 15px 35px;
+  background-color: #fefeff;
+  border-radius: 30px;
+  border: 1px solid #bebebe;
+  transition: all 0.2s;
+}
+.header__contact-link:hover {
+  background-color: #1f1f1f;
+  border-color: #1f1f1f;
+  color: #fefeff;
+}
+
+.logo__image {
+  width: 94px;
+}
+
+.menu {
+  background-color: #fefeff;
+  padding: 20px;
+  border-radius: 40px;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu__item {
+  margin-right: 35px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #1f1f1f;
+}
+.menu__link:hover:after {
+  width: 100%;
+}
+.menu__link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #1f1f1f;
+  transform: translateX(-50%);
+  transition: 0.2s;
+}
+
+.hero {
+  margin-top: 32px;
+}
+.hero__container {
+  width: 1380px;
+  margin: 0 auto;
+}
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 10px 175px 45px;
+  border-radius: 15px;
+  background: url(../images/noise-bg.png), linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+}
+.hero__text {
+  width: 480px;
+}
+.hero__greeting {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.hero__title {
+  font-size: 67px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.hero__subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.hero__image {
+  width: 785px;
+  margin-bottom: -295px;
+}
+
+.subscription-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fefeff;
+  border-radius: 40px;
+}
+.subscription-form__input {
+  width: 100%;
+  height: 60px;
+  padding: 18px 24px;
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: #fefeff;
+  border-radius: 40px 0 0 40px;
+}
+.subscription-form__button {
+  flex-shrink: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 25px;
+  border-radius: 40px;
+  border: 2px solid #1f1f1f;
+  background-color: #1f1f1f;
+  font-size: 16px;
+  color: #fefeff;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.subscription-form__button:hover {
+  background-color: #fefeff;
+  color: #1f1f1f;
 }
